@@ -990,6 +990,7 @@ header {
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
     max-width: 370px;
     margin-left: -9px;
+    font-size: 21px;
   }
   .main05-1 .quemSouEu hr {
     margin-top: 80px;
@@ -1062,9 +1063,13 @@ header {
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
     max-width: 365px;
     margin-left: -9px;
+    font-size: 21px;
   }
 }
 @media (max-width: 380px) {
+  .titleHome01 {
+    margin-top: 70px;
+  }
   .main05-1 .quemSouEu .textsQuemSouEu {
     margin-bottom: 0px;
     max-width: 350px;
@@ -1096,6 +1101,125 @@ header {
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
     font-size: 25px;
+  }
+}
+@media (max-width: 380px) {
+  .main05-1 .quemSouEu .quemSouEuImg {
+    margin-top: 260px;
+  }
+  .main05-1 .quemSouEu hr {
+    margin-bottom: 30px;
+  }
+  .main05-1 .quemSouEu .quemSouEuImg2 {
+    margin-top: 230px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
+    margin-left: 0px;
+    font-size: 25px;
+    text-align: center;
+    max-width: 350px;
+    margin-top: -80px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
+    margin-left: 0px;
+    width: auto;
+    font-size: 30px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
+    margin-left: 0px;
+    max-width: 350px;
+    font-size: 21px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
+    max-width: 350px;
+    margin-left: 0px;
+    font-size: 21px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
+    margin-bottom: 255px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
+    margin-bottom: 255px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1-2quemSouEu {
+    margin-top: -430px;
+  }
+  .main05-1 .quemSouEu .p1QuemSouEu {
+    justify-content: center;
+  }
+  .main05-1 .quemSouEu .p1QuemSouEu p {
+    max-width: 290px;
+  }
+  .setaQuemSouEu {
+    display: none; /* ou visibility: hidden; ou qualquer outra propriedade para ocultar */
+  }
+}
+@media (max-width: 322px) {
+  header {
+    padding-top: 20px;
+  }
+  .titleHome01 {
+    margin-top: 40px;
+  }
+  .titleHome1 {
+    font-size: 25px;
+  }
+  .containerhome1-2 .titleHome1-2 {
+    margin-top: 40px;
+    font-size: 35px;
+  }
+  .containerhome1-2 .bntHome1 {
+    margin-top: 40px;
+  }
+  .main05-1 .quemSouEu p {
+    text-align: center;
+  }
+  .main05-1 .quemSouEu .quemSouEuImg {
+    margin-top: 260px;
+  }
+  .main05-1 .quemSouEu hr {
+    margin-top: 120px;
+    margin-bottom: 20px;
+  }
+  .main05-1 .quemSouEu .quemSouEuImg2 {
+    margin-top: 230px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu {
+    width: 320px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .h1-1-2quemSouEu {
+    max-width: 335px;
+    margin-top: -440px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts {
+    width: 320px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
+    margin-left: 0px;
+    font-size: 25px;
+    text-align: center;
+    max-width: 320px;
+    margin-top: -80px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
+    width: 320px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .p1QuemSouEu {
+    width: 320px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
+    width: 320px;
+    margin-top: -100px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
+    max-width: 320px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
+    max-width: 320px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
+    width: 320px;
+    margin-bottom: 230px;
   }
 }
 
