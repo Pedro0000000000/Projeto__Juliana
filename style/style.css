@@ -1171,6 +1171,9 @@ header {
   .containerhome1-2 .bntHome1 {
     margin-top: 40px;
   }
+  .bntHome2 {
+    margin-left: -23px;
+  }
   .main05-1 .quemSouEu p {
     text-align: center;
   }

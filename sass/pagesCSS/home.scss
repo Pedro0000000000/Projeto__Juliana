@@ -4,18 +4,13 @@ body {
   color: bisque;
   font-family: "noto";
   background-color: #343f22;
-  // background-color: #ff0000;
 }
 
 .home {
-  // width: 100%;
-  // height: 97.7vh;
-  // height: 104.5vh;
   height: 100vh;
 }
 
 .videoCapa {
-  // width: 100%;
   height: 105vh;
   position: absolute;
   top: 0;
@@ -24,7 +19,6 @@ body {
   min-width: 100%;
   min-height: 100%;
   z-index: -100;
-  // background-image: url(../../fotosEvideosMari/h6dba5ab4_V0195_073_4k_25000br.mp4);
   background-size: cover;
 }
 
@@ -82,13 +76,7 @@ header {
 .containerhome01 {
   padding-top: 50px;
   max-height: 100%;
-  // min-height: 500px;
 }
-
-// .titleHome1 {
-//   // font-size: 24px;
-//   font-weight: 250;
-// }
 
 .titleHome01 {
   margin-top: 100px;
@@ -145,7 +133,6 @@ header {
 .main02 {
   width: 100%;
   height: 70%;
-  // margin-top: 35px;
 }
 
 .containerhome-2 {
@@ -156,13 +143,11 @@ header {
   display: flex;
   justify-content: center;
   text-align: center;
-  // padding-top: 5%;
 }
 
 .home2 {
   font-family: "noto";
   max-width: 755px;
-  // margin-top: 100px;
 }
 
 .pHome1 {
@@ -176,7 +161,6 @@ header {
 }
 
 .bntHome2 {
-  // margin-top: 1%;
   margin-bottom: 20px;
 }
 
@@ -186,13 +170,11 @@ header {
 
 .pjRealizados {
   width: 100%;
-  // height: 125vh;
   padding-top: 30px;
   text-align: center;
 }
 
 .imgbackground {
-  // min-height: 102.7vh;
   min-height: 900px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -244,8 +226,6 @@ header {
 
 .main04-1 {
   width: 100%;
-  // height: 50vh;
-  // max-height: 50vh;
   min-height: 380px;
   text-align: center;
 
@@ -254,7 +234,6 @@ header {
 
 .main04-2 {
   width: 100%;
-  // height: 50vh;
 
   display: flex;
   justify-content: center;
@@ -272,15 +251,11 @@ header {
 .pralizado1 {
   font-size: 19px;
   padding-top: 2%;
-  // margin-bottom: 5%;
 }
 
 .main05-1 {
   width: 100%;
-  // height: 200vh;
-  // height: 1623.26px;
   height: 1452px;
-  // margin-top: -50px;
   background: linear-gradient(to bottom, #343f22, #000000dd);
   font-family: "noto";
   column-gap: 50px;
@@ -298,15 +273,11 @@ header {
   .quemSouEu {
     display: flex;
     flex-direction: row;
-    // align-items: center;
     min-height: 600px;
-
-    // height: 90vh;
 
     .textsQuemSouEu {
       width: 50%;
       display: flex;
-      // align-items: center;
       justify-content: center;
 
       .quemSouEutexts {
@@ -330,7 +301,6 @@ header {
 
         .h1-4quemSouEu {
           font-size: 40px;
-          // margin-left: 40%;
           text-align: right;
           margin-bottom: 0px;
         }
@@ -348,7 +318,6 @@ header {
 
         .h1-7quemSouEu {
           font-size: 30px;
-          // margin-left: 7%;
         }
 
         .p1QuemSouEu {
@@ -368,7 +337,6 @@ header {
       display: flex;
       align-items: center;
       justify-content: center;
-      // margin-top: 176px;
 
       .quemSouEuImg {
         max-width: 400px;
@@ -391,7 +359,6 @@ header {
   }
 
   .hrr {
-    // width: 90%;
     text-align: center;
     align-items: center;
     margin: 0pc 50px;
@@ -415,8 +382,6 @@ header {
 }
 
 .main06-1 {
-  // width: 100%;
-
   height: 775px;
   text-align: center;
   background: linear-gradient(to bottom, #030302df, #000000e5);
@@ -425,7 +390,6 @@ header {
     box-shadow: 5px 5px 6px bisque;
     width: 100%;
     border-radius: 25px;
-    // height: 80%;
   }
 
   .h1main06 {
@@ -445,12 +409,9 @@ header {
   }
 
   .conteudoMain06 {
-    // height: 75vh;
     min-height: 510px;
     display: flex;
-    // align-items: center;
     justify-content: center;
-    // margin-top: 5%;
     gap: 10px;
   }
 }
@@ -485,7 +446,6 @@ header {
   }
   .main07-1-2 {
     width: 100%;
-    // height: 80vh;
     display: flex;
     justify-content: space-between;
   }
@@ -495,7 +455,6 @@ header {
   }
 
   .bntHome1 {
-    // padding: 5px;
     color: bisque;
     font-size: 16px;
     cursor: pointer;
@@ -539,7 +498,6 @@ header {
 
   .main07-1-3 {
     width: 50%;
-    // max-height: 78.5vh;
     background-image: url(../../fotosEvideosMari/fotografia-de-arquitetura-e-interiores_fcm3113.jpg);
   }
 }
@@ -547,7 +505,6 @@ header {
 @media (max-width: 992px) {
   .headMaria {
     font-size: 22px;
-    // color: aqua;
   }
 
   .headRocha {
@@ -599,31 +556,21 @@ header {
   }
   .pHome2 {
     font-size: 25px;
-    // margin-top: -10%;
   }
 
   .pHome22 {
     margin-bottom: 0px;
   }
 
-  // .main02 {
-  //   height: 70vh;
-  //   // margin-top: 35px;
-  // }
-
   .containerhome-2 {
     min-height: 1100px;
-    // height: 4000px;
     height: auto;
   }
 
   .home2 {
     font-family: "noto";
-    // min-height: 1050px;
-    // margin-top: 100px;
     padding: 0px 10px;
     max-height: auto;
-    // margin-bottom: 50px;
   }
 
   .pHome1 {
@@ -635,7 +582,6 @@ header {
   }
 
   .main03 {
-    // min-height: auto;
     .pjRealizados {
       margin-top: 0px;
       padding-top: 0px;
@@ -645,15 +591,6 @@ header {
   .card1.item2 {
     margin-top: 0px;
   }
-
-  .card1 {
-    // max-width: 3800px;
-  }
-
-  // .imgcard1 {
-  //   width: 400px;
-  //   height: auto;
-  // }
 
   .h1realizado-1 .h1realizado-2 {
     font-size: 35px;
@@ -673,7 +610,6 @@ header {
   .flex-container {
     display: flex;
     flex-direction: column;
-    // margin-top: 5%;
     gap: 14px;
     align-items: center;
 
@@ -692,16 +628,8 @@ header {
   }
 
   .main04-1 {
-    // height: 30vh;
-
     .textsMain04-1 {
       max-width: 650px;
-      // margin-top: 85px;
-    }
-
-    .bntHome4 {
-      // margin-top: 50px;
-      // 8%
     }
   }
 
@@ -709,12 +637,7 @@ header {
     display: flex;
     align-items: center;
     padding-bottom: 55px;
-    // margin-top: 8%;
-    // height: 72vh;
   }
-
-  // .quemSouEutexts {
-  // }
 
   .textsQuemSouEu {
     width: 65%;
@@ -738,8 +661,6 @@ header {
     margin-top: -81px;
     margin-left: 357px;
     width: 250px;
-    // margin-left: 40%;
-    // text-align: right;
     margin-bottom: 0px;
   }
 
@@ -796,10 +717,6 @@ header {
 }
 
 @media (max-width: 834px) {
-  .main02 {
-    // height: 6383px;
-  }
-
   .home2 {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -810,7 +727,6 @@ header {
   .containerhome-2 {
     max-height: 2600px;
     min-height: auto;
-    // height: 6383px;
     min-height: auto;
     height: auto;
   }
@@ -830,10 +746,6 @@ header {
     margin-bottom: 60px;
     width: 650px;
   }
-
-  // .main03 {
-  //   padding-top: 20px;
-  // }
 
   .main04-1 {
     margin-bottom: 40px;
@@ -856,11 +768,7 @@ header {
     .quemSouEu {
       display: flex;
       justify-content: center;
-
-      // flex-direction: column;
       flex-direction: column-reverse;
-      // justify-content: ;
-      // gap: 40px;
       width: 100%;
 
       hr {
@@ -889,11 +797,7 @@ header {
     }
   }
   .quemSouEutexts {
-    // order: 2;
-    // width: 430px;
     width: 650px;
-    // margin: auto 0px;
-    // font-size: 30px;
   }
 
   .quemSouEu {
@@ -905,7 +809,6 @@ header {
   .imagemQuemSouEu {
     width: 450px;
     height: 284.55px;
-    // margin-top: 260px;
   }
 
   .quemSouEuImg {
@@ -917,8 +820,6 @@ header {
   }
 
   .main05-1 {
-    // align-items: center;
-
     .hrpreto {
       margin: 0px;
     }
@@ -931,7 +832,6 @@ header {
 
         .quemSouEutexts {
           width: 100vh;
-          // margin-top: 10px;
 
           hr {
             margin-top: 110px;
@@ -942,8 +842,6 @@ header {
           }
 
           .h1-1-2quemSouEu {
-            // font-size: 30px;
-            // color: aqua;
             margin-left: 10px;
             margin-top: -470px;
             width: auto;
@@ -970,25 +868,12 @@ header {
           .h1-7quemSouEu {
             margin-bottom: 265px;
           }
-
-          .p1QuemSouEu {
-            // margin-top: 270px;
-            .setaQuemSouEu {
-            }
-          }
-          // p {
-          //   width: 600px;
-          //   font-size: 20px;
-          // }
         }
       }
     }
 
     .imagemQuemSouEu2 {
-      // width: 35%;
       max-width: 400px;
-      // margin-top: 120px;
-      // margin-left: -10px;
     }
   }
 
@@ -1020,7 +905,6 @@ header {
       }
 
       .textsMain04-1 {
-        // margin-top: 100px;
         margin-bottom: 0px;
       }
     }
@@ -1083,14 +967,11 @@ header {
       font-size: 20px;
       padding-right: 70px;
       padding-left: 70px;
-      // margin-top: 270px;
     }
   }
 
   .titleHome01 {
     margin-top: 0px;
-    // padding-top: 100px;
-    // margin-top: 270px;
     margin-top: 100px;
     font-size: 27px;
   }
@@ -1103,16 +984,9 @@ header {
 
   .containerhome1-2 {
     text-align: center;
-    .titleHome1 {
-      // font-size: 50px;
-      // margin-bottom: 0px;
-      // text-align: center;
-    }
 
     .titleHome1-2 {
       font-size: 40px;
-      // padding-top: 100px;
-      // margin-top: -270px;
       margin-top: 110px;
     }
 
@@ -1171,13 +1045,12 @@ header {
 
           .h1-4quemSouEu {
             text-align: center;
-            // margin-left: 4px;
+
             font-size: 33px;
           }
 
           .h1-5quemSouEu {
             text-align: center;
-            // font-size: 27px;
           }
 
           .h1-6quemSouEu {
@@ -1204,11 +1077,7 @@ header {
     .quemSouEu {
       display: flex;
       justify-content: center;
-
-      // flex-direction: column;
       flex-direction: column-reverse;
-      // justify-content: ;
-      // gap: 40px;
       width: 100%;
 
       hr {
@@ -1228,12 +1097,8 @@ header {
           }
 
           .h1-4quemSouEu {
-            // margin-top: -81px;
             margin-left: 0px;
             width: 100%;
-            // // margin-left: 40%;
-            // // text-align: right;
-            // margin-bottom: 0px;
           }
 
           .h1-5quemSouEu {
@@ -1290,34 +1155,9 @@ header {
         .quemSouEutexts {
           .h1-7quemSouEu {
             max-width: 100%;
-            // margin-left: 20px;
           }
         }
       }
-    }
-
-    .imagemQuemSouEu {
-      // width: 35%;
-      // margin-top: 0%;
-    }
-
-    .quemSouEuImg {
-      // max-width: 190px;
-      // height: 190px;
-      // margin-top: -47px;
-    }
-
-    .p1QuemSouEu {
-      // width: 400px;
-
-      p {
-        // width: 350px;
-      }
-    }
-
-    .quemSouEu2 {
-      // margin-left: 50px;
-      // text-align: center;
     }
   }
 }
@@ -1329,25 +1169,16 @@ header {
     .quemSouEu {
       display: flex;
       justify-content: center;
-
-      // flex-direction: column;
       flex-direction: column-reverse;
-      // justify-content: ;
-      // gap: 40px;
       width: 100%;
 
       .textsQuemSouEu {
         margin-bottom: 0px;
         max-width: 350px;
-        // align-items: center;
 
         .quemSouEutexts {
           max-width: 350px;
           align-items: center;
-
-          // .h1-1-2quemSouEu {
-          //   width: 400px;
-          // }
 
           .h1-2quemSouEu {
             margin-left: 0px;
@@ -1356,7 +1187,6 @@ header {
           .h1-4quemSouEu {
             margin-left: 0px;
             width: auto;
-            // text-align: right;
             font-size: 30px;
           }
 
@@ -1398,51 +1228,10 @@ header {
       p {
         width: auto;
         font-size: 20px;
-        // text-align: center;
-      }
-    }
-
-    .main05-1 {
-      .quemSouEu {
-        .textsQuemSouEu {
-          .quemSouEutexts {
-            .h1-7quemSouEu {
-              // max-width: 350px;
-              // margin-left: 20px;
-            }
-          }
-        }
-      }
-    }
-
-    // .h1-5quemSouEu {
-    //   // margin-left: -50px;
-    //   // max-width: 490px;
-    //   font-size: 25px;
-    //   // margin-left: -70px;
-    // }
-    .imagemQuemSouEu {
-      // width: 35%;
-      // margin-top: 0%;
-    }
-
-    .quemSouEuImg {
-      // max-width: 190px;
-      // height: 190px;
-      // margin-top: -47px;
-    }
-
-    .p1QuemSouEu {
-      // width: 400px;
-
-      p {
-        // width: 350px;
       }
     }
 
     .quemSouEu2 {
-      // margin-left: 50px;
-      // text-align: center;
       padding-bottom: 0px;
     }
   }
@@ -1485,10 +1274,6 @@ header {
           max-width: 350px;
           align-items: center;
 
-          // .h1-1-2quemSouEu {
-          //   width: 400px;
-          // }
-
           .h1-2quemSouEu {
             margin-left: 0px;
             font-size: 27px;
@@ -1529,15 +1314,10 @@ header {
       .textsQuemSouEu {
         margin-bottom: 0px;
         max-width: 350px;
-        // align-items: center;
 
         .quemSouEutexts {
           max-width: 350px;
           align-items: center;
-
-          // .h1-1-2quemSouEu {
-          //   width: 400px;
-          // }
 
           .h1-2quemSouEu {
             margin-left: 0px;
@@ -1669,6 +1449,10 @@ header {
     .bntHome1 {
       margin-top: 40px;
     }
+  }
+
+  .bntHome2 {
+    margin-left: -23px;
   }
 
   .main05-1 {
