@@ -128,7 +128,7 @@ header {
 }
 
 .pHome22 {
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .main02 {
@@ -138,8 +138,7 @@ header {
 
 .containerhome-2 {
   max-width: 100%;
-  max-height: 100vh;
-  min-height: 710.5px;
+  min-height: 600px;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.865), rgb(52, 63, 34));
   display: flex;
   justify-content: center;
@@ -148,7 +147,7 @@ header {
 
 .home2 {
   font-family: "noto";
-  max-width: 755px;
+  max-width: 700px;
 }
 
 .pHome1 {
@@ -158,10 +157,10 @@ header {
 
 .pHome2 {
   font-size: 19px;
-  padding: 15px;
 }
 
 .bntHome2 {
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 
@@ -171,7 +170,6 @@ header {
 
 .pjRealizados {
   width: 100%;
-  padding-top: 30px;
   text-align: center;
 }
 
@@ -185,13 +183,16 @@ header {
 
 .h1realizado-1 {
   font-family: "noto";
+  font-size: 37px;
   padding-top: 0px;
+  margin-bottom: 0px;
 }
 
 .h1realizado-2 {
   font-family: "noto";
   text-align: end;
-  padding-bottom: 50px;
+  font-size: 37px;
+  padding-bottom: 10px;
 }
 
 .containerimagem {
@@ -225,7 +226,7 @@ header {
 
 .main04-1 {
   width: 100%;
-  min-height: 380px;
+  min-height: 320px;
   text-align: center;
   background: linear-gradient(to bottom, rgba(255, 228, 196, 0.738), #343f22);
 }
@@ -238,7 +239,7 @@ header {
 
 .textsMain04-1 {
   max-width: 650px;
-  margin: 55px 0px;
+  margin: 35px 0px 0px 0px;
 }
 
 .h1realizado-3 {
@@ -247,18 +248,25 @@ header {
 
 .pralizado1 {
   font-size: 19px;
-  padding-top: 2%;
+  margin-bottom: 0px;
+}
+
+.bntHome4 {
+  margin-top: 20px;
 }
 
 .main05-1 {
   width: 100%;
-  height: 1452px;
+  height: 1352px;
   background: linear-gradient(to bottom, #343f22, rgba(0, 0, 0, 0.8666666667));
   font-family: "noto";
   column-gap: 50px;
 }
+.main05-1 .container {
+  min-height: 1352px;
+}
 .main05-1 .hrr hr {
-  margin-bottom: 100px;
+  margin-bottom: 200px;
 }
 .main05-1 .hrr2 hr {
   text-align: center;
@@ -276,10 +284,13 @@ header {
   justify-content: center;
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts {
-  width: 450px;
+  max-width: 500px;
+}
+.main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts p {
+  margin-bottom: 8px;
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1quemSouEu {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 0px;
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
@@ -292,12 +303,14 @@ header {
   text-align: right;
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
-  font-size: 40px;
-  text-align: right;
-  margin-bottom: 0px;
+  font-size: 35px;
+  width: 250px;
+  margin: -75px 0px 0px 300px;
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
   font-size: 30px;
+  width: 500px;
+  margin-left: 20px;
   margin-bottom: 0px;
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
@@ -307,14 +320,13 @@ header {
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
   font-size: 30px;
+  margin-left: 20px;
 }
 .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .p1QuemSouEu {
   display: flex;
-  gap: 20px;
+  width: 500px;
+  text-align: justify;
   font-size: 15px;
-}
-.main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .p1QuemSouEu .setaQuemSouEu {
-  height: 30px;
 }
 .main05-1 .quemSouEu .imagemQuemSouEu {
   width: 50%;
@@ -323,8 +335,9 @@ header {
   justify-content: center;
 }
 .main05-1 .quemSouEu .imagemQuemSouEu .quemSouEuImg {
-  max-width: 400px;
+  max-width: 350px;
   max-height: 350px;
+  margin-top: -30px;
 }
 .main05-1 .quemSouEu .imagemQuemSouEu2 {
   width: 50%;
@@ -333,8 +346,9 @@ header {
   justify-content: center;
 }
 .main05-1 .quemSouEu .imagemQuemSouEu2 .quemSouEuImg {
-  max-width: 400px;
+  max-width: 350px;
   max-height: 350px;
+  margin-top: -55px;
 }
 .main05-1 .hrr {
   text-align: center;
@@ -499,24 +513,22 @@ header {
   }
   .pHome1 {
     font-size: 35px;
+    margin-top: 25px;
+    margin-bottom: 8px;
   }
   .pHome2 {
-    font-size: 25px;
+    font-size: 22px;
   }
   .pHome22 {
     margin-bottom: 0px;
   }
   .containerhome-2 {
-    min-height: 1100px;
     height: auto;
   }
   .home2 {
     font-family: "noto";
     padding: 0px 10px;
     max-height: auto;
-  }
-  .pHome1 {
-    margin: 0px;
   }
   .phome2 {
     width: auto;
@@ -533,7 +545,8 @@ header {
   }
   .h1realizado-2 {
     text-align: center;
-    margin: 0px;
+    padding: 0px;
+    margin: 0px 0px 30px 0px;
   }
   .h1rodrigo {
     padding-top: 18px;
@@ -554,7 +567,6 @@ header {
   }
   .bntHome2 {
     margin-top: 25px;
-    margin-bottom: 30px;
   }
   .main04-1 .textsMain04-1 {
     max-width: 650px;
@@ -564,11 +576,48 @@ header {
     align-items: center;
     padding-bottom: 55px;
   }
-  .textsQuemSouEu {
-    width: 65%;
+  .main05-1 .hrr hr {
+    margin-bottom: 30px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu {
+    width: 380px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts {
+    width: 380px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
+    margin-top: -75px;
+    margin-left: 295px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
+    margin-left: 38px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
+    margin-left: 0px;
+    margin-bottom: 8px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .p1QuemSouEu {
+    width: 350px;
+    text-align: justify;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .p1QuemSouEu p {
+    width: 350px;
+  }
+  .main05-1 .quemSouEu .imagemQuemSouEu .quemSouEuImg {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1-2quemSouEu {
+    margin-left: 0px;
+  }
+  .main05-1 .quemSouEu .imagemQuemSouEu2 .quemSouEuImg {
+    margin-top: 50px;
+  }
+  .quemSouEu2 {
+    padding-bottom: 0px;
   }
   .h1-1quemSouEu {
-    margin-left: 20px;
+    margin-left: 0px;
   }
   .h1-2quemSouEu {
     width: 370px;
@@ -576,42 +625,23 @@ header {
   .h1-3quemSouEu {
     width: 380px;
     margin-left: 23%;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .h1-4quemSouEu {
-    margin-top: -81px;
-    margin-left: 357px;
+    margin-left: 300px;
     width: 250px;
     margin-bottom: 0px;
   }
-  .h1-5quemSouEu {
-    margin-left: 50px;
-    width: 500px;
-  }
   .h1-6quemSouEu {
     width: 500px;
-    margin-left: 50px;
+    margin-left: 35px;
   }
-  .h1-7quemSouEu {
-    margin-left: 20px;
-  }
-  .imagemQuemSouEu {
-    width: 35%;
-    margin-top: 0%;
+  .pralizado1 {
+    font-size: 22px;
   }
   .quemSouEuImg {
     max-width: 190px;
     height: 190px;
-    margin-top: -47px;
-  }
-  .p1QuemSouEu {
-    width: 380px;
-  }
-  .p1QuemSouEu p {
-    width: 350px;
-  }
-  .quemSouEu2 {
-    margin-left: 50px;
   }
   .main06-1 .textMain06 {
     height: 250px;
@@ -623,13 +653,7 @@ header {
     margin: 0px;
   }
 }
-@media (max-width: 834px) {
-  .home2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-}
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .containerhome-2 {
     max-height: 2600px;
     min-height: auto;
@@ -637,17 +661,16 @@ header {
     height: auto;
   }
   .home2 {
-    min-height: 880px;
+    min-height: 850px;
     max-height: auto;
     padding-top: 0px;
     padding-bottom: 0px;
   }
-  .pHome1 {
-    padding-top: 25px;
+  .pHome2 {
+    font-size: 25px;
   }
   .textsQuemSouEu {
     margin-bottom: 60px;
-    width: 650px;
   }
   .main04-1 {
     margin-bottom: 40px;
@@ -664,46 +687,45 @@ header {
   .main05-1 {
     height: auto;
   }
+  .main05-1 .hrr hr {
+    margin-bottom: 100px;
+  }
   .main05-1 .quemSouEu {
     display: flex;
     justify-content: center;
     flex-direction: column-reverse;
-    width: 100%;
   }
   .main05-1 .quemSouEu hr {
     margin-top: 80px;
   }
   .main05-1 .quemSouEu .h1-1quemSouEu {
-    margin-top: -300px;
+    margin-top: -360px;
     margin-left: 10px;
+    text-align: center;
   }
   .main05-1 .quemSouEu .h1-3quemSouEu {
     margin-bottom: 265px;
   }
   .main05-1 .quemSouEu .p1QuemSouEu {
-    width: 600px;
+    width: 100%;
     height: auto;
-    margin-left: -35px;
+    text-align: justify;
   }
   .main05-1 .quemSouEu p {
-    width: 650px;
+    width: 100%;
     font-size: 20px;
   }
+  .main05-1 .quemSouEu .imagemQuemSouEu .quemSouEuImg {
+    margin-top: 140px;
+  }
+  .main05-1 .quemSouEu .imagemQuemSouEu2 .quemSouEuImg2 {
+    margin-top: 215px;
+  }
   .quemSouEutexts {
-    width: 650px;
+    max-width: 500px;
   }
   .quemSouEu .textsQuemSouEu {
-    width: 680px;
-  }
-  .imagemQuemSouEu {
-    width: 450px;
-    height: 284.55px;
-  }
-  .quemSouEuImg {
-    margin-top: 225px;
-  }
-  .quemSouEuImg2 {
-    margin-top: 255px;
+    width: 100%;
   }
   .main05-1 .hrpreto {
     margin: 0px;
@@ -713,10 +735,10 @@ header {
   }
   .main05-1 .quemSouEu .textsQuemSouEu {
     margin-bottom: 0px;
-    width: 600px;
+    width: 500px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts {
-    width: 100vh;
+    width: 380px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts hr {
     margin-top: 110px;
@@ -726,23 +748,48 @@ header {
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1-2quemSouEu {
     margin-left: 10px;
-    margin-top: -470px;
+    margin-top: -430px;
     width: auto;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
+    width: 100%;
     margin-top: -90px;
+    margin-left: 0px;
+    text-align: center;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
-    margin-bottom: 245px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 227px;
+    margin-left: 0px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
-    text-align: start;
-    width: 290px;
+    text-align: center;
+    width: 100%;
     margin-top: -90px;
-    margin-left: 200px;
+    margin-left: 0px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
+    text-align: center;
+    width: 500px;
+    margin-left: -60px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
+    width: 400px;
+    text-align: center;
+    margin-left: -10px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
-    margin-bottom: 265px;
+    text-align: center;
+    width: auto;
+    margin-left: 0px;
+    margin-bottom: 225px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .p1QuemSouEu {
+    width: 380px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .p1QuemSouEu p {
+    width: 380px;
   }
   .main05-1 .imagemQuemSouEu2 {
     max-width: 400px;
@@ -856,6 +903,15 @@ header {
   .main04-1 .pralizado1 {
     font-size: 22px;
   }
+  .main05-1 .quemSouEu .quemSouEuImg {
+    margin-top: 215px;
+  }
+  .main05-1 .quemSouEu .quemSouEuImg2 {
+    margin-top: 240px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts hr {
+    margin-bottom: 20px;
+  }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1quemSouEu {
     font-size: 35px;
   }
@@ -865,9 +921,13 @@ header {
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .setaQuemSouEu {
     margin-left: -17px;
   }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
+    margin-top: -90px;
+  }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
     text-align: center;
     font-size: 27px;
+    margin-bottom: 230px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
     text-align: center;
@@ -883,7 +943,6 @@ header {
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
     text-align: center;
     font-size: 27px;
-    max-width: 299px;
     margin-left: 0px;
   }
 }
@@ -918,6 +977,7 @@ header {
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
     font-size: 25px;
     margin-left: 0px;
+    width: 410px;
     margin-left: -18px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
@@ -927,19 +987,18 @@ header {
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
     font-size: 24px;
-    margin-bottom: 250px;
+    margin-bottom: 230px;
   }
   .main05-1 .quemSouEu .quemSouEuImg2 {
     margin-top: 200px;
   }
   .main05-1 .quemSouEu .h1-1quemSouEu {
     max-width: 100%;
-    margin-top: -300px;
+    margin-top: -360px;
     margin-left: 0px;
     text-align: center;
   }
   .main05-1 .quemSouEu .h1-3quemSouEu {
-    margin-bottom: 265px;
     margin-left: 0px;
     max-width: 350px;
   }
@@ -957,6 +1016,23 @@ header {
   }
 }
 @media (max-width: 525px) {
+  .bntHome2 {
+    margin-bottom: 25px;
+  }
+  .h1realizado-1 {
+    font-size: 29px;
+  }
+  .h1realizado-2 {
+    font-size: 29px;
+    padding-bottom: 0px;
+  }
+  .pHome1 {
+    margin-bottom: 25px;
+  }
+  .pHome2 {
+    text-align: justify;
+    padding: 0px 27px;
+  }
   .main05-1 {
     height: auto;
   }
@@ -975,6 +1051,7 @@ header {
     align-items: center;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
+    font-size: 29px;
     margin-left: 0px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
@@ -983,26 +1060,29 @@ header {
     font-size: 30px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
-    margin-left: -5px;
-    max-width: 360px;
-    font-size: 22px;
+    margin-left: -20px;
+    max-width: 390px;
+    font-size: 24px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
     max-width: 370px;
     margin-left: -9px;
-    font-size: 21px;
+    font-size: 24px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
+    margin-bottom: 230px;
+    margin-left: 0px;
+    max-width: 350px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1-2quemSouEu {
+    margin-top: -415px;
   }
   .main05-1 .quemSouEu hr {
     margin-top: 80px;
   }
   .main05-1 .quemSouEu .h1-1quemSouEu {
-    margin-top: -300px;
+    margin-top: -360px;
     margin-left: 0px;
-  }
-  .main05-1 .quemSouEu .h1-3quemSouEu {
-    margin-bottom: 265px;
-    margin-left: 0px;
-    max-width: 350px;
   }
   .main05-1 .quemSouEu .p1QuemSouEu {
     max-width: 350px;
@@ -1012,6 +1092,12 @@ header {
   .main05-1 .quemSouEu p {
     width: auto;
     font-size: 20px;
+  }
+  .main05-1 .quemSouEu .imagemQuemSouEu .quemSouEuImg {
+    margin-top: 140px;
+  }
+  .main05-1 .quemSouEu .imagemQuemSouEu2 .quemSouEuImg2 {
+    margin-top: 195px;
   }
   .main05-1 .quemSouEu2 {
     padding-bottom: 0px;
@@ -1067,51 +1153,14 @@ header {
   }
 }
 @media (max-width: 380px) {
-  .titleHome01 {
-    margin-top: 70px;
+  .main04-1 .bntHome4 {
+    margin-bottom: 15px;
   }
-  .main05-1 .quemSouEu .textsQuemSouEu {
-    margin-bottom: 0px;
-    max-width: 350px;
-  }
-  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts {
-    max-width: 350px;
-    align-items: center;
-  }
-  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
-    margin-left: 0px;
-    font-size: 25px;
-    text-align: center;
-    max-width: 350px;
-  }
-  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-4quemSouEu {
-    margin-left: 0px;
-    width: auto;
-    font-size: 30px;
-  }
-  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-5quemSouEu {
-    margin-left: -5px;
-    max-width: 360px;
-    font-size: 21px;
-  }
-  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-6quemSouEu {
-    max-width: 360px;
-    margin-left: -9px;
-    font-size: 21px;
-  }
-  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
-    font-size: 25px;
-  }
-}
-@media (max-width: 380px) {
   .main05-1 .quemSouEu .quemSouEuImg {
     margin-top: 260px;
   }
   .main05-1 .quemSouEu hr {
     margin-bottom: 30px;
-  }
-  .main05-1 .quemSouEu .quemSouEuImg2 {
-    margin-top: 230px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-2quemSouEu {
     margin-left: 0px;
@@ -1136,19 +1185,22 @@ header {
     font-size: 21px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
-    margin-bottom: 255px;
+    margin-bottom: 233px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-3quemSouEu {
-    margin-bottom: 255px;
+    margin-bottom: 223px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1-2quemSouEu {
-    margin-top: -430px;
+    margin-top: -410px;
   }
   .main05-1 .quemSouEu .p1QuemSouEu {
     justify-content: center;
   }
   .main05-1 .quemSouEu .p1QuemSouEu p {
     max-width: 290px;
+  }
+  .main05-1 .quemSouEu .imagemQuemSouEu2 .quemSouEuImg2 {
+    margin-top: 185px;
   }
   .setaQuemSouEu {
     display: none; /* ou visibility: hidden; ou qualquer outra propriedade para ocultar */
@@ -1170,29 +1222,33 @@ header {
   }
   .containerhome1-2 .bntHome1 {
     margin-top: 40px;
+    padding: 15px 37px;
   }
   .bntHome2 {
-    margin-left: -23px;
+    padding: 15px 35px;
   }
-  .main05-1 .quemSouEu p {
-    text-align: center;
+  .bntHome4 {
+    padding-right: 60px;
+    padding-left: 60px;
   }
-  .main05-1 .quemSouEu .quemSouEuImg {
-    margin-top: 260px;
+  .pHome2 {
+    padding: 0px 5px;
   }
   .main05-1 .quemSouEu hr {
     margin-top: 120px;
     margin-bottom: 20px;
   }
-  .main05-1 .quemSouEu .quemSouEuImg2 {
-    margin-top: 230px;
+  .main05-1 .quemSouEu .imagemQuemSouEu .quemSouEuImg {
+    margin-top: 173px;
+  }
+  .main05-1 .quemSouEu .imagemQuemSouEu2 .quemSouEuImg2 {
+    margin-top: 188px;
+  }
+  .main05-1 .quemSouEu .h1-1quemSouEu {
+    margin-top: -393px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu {
     width: 320px;
-  }
-  .main05-1 .quemSouEu .textsQuemSouEu .h1-1-2quemSouEu {
-    max-width: 335px;
-    margin-top: -440px;
   }
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts {
     width: 320px;
@@ -1223,6 +1279,22 @@ header {
   .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-7quemSouEu {
     width: 320px;
     margin-bottom: 230px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .h1-1-2quemSouEu {
+    max-width: 335px;
+    margin-top: -420px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .imagemQuemSouEu .quemSouEuImg {
+    margin-top: 180px;
+  }
+  .main05-1 .quemSouEu .textsQuemSouEu .quemSouEutexts .imagemQuemSouEu2 .quemSouEuImg2 {
+    margin-top: 200px;
+  }
+  .main07-0 .bntHomeFooter {
+    padding: 15px 22px;
+  }
+  .main07-0 .main07-1-3 {
+    width: 27px;
   }
 }
 
