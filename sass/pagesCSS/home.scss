@@ -1529,7 +1529,67 @@ header {
 //   }
 // }
 
+@media (max-height: 695px) {
+  .containerhome01 {
+    height: auto;
+  }
+
+  .container {
+    height: auto;
+  }
+
+  .titleHome01 {
+    margin-top: 70px;
+  }
+
+  .containerhome1-2 {
+    .titleHome1-2 {
+      margin-top: 90px;
+    }
+  }
+
+  .containerhome01 {
+    .bntHome1 {
+      margin-top: 90px;
+    }
+  }
+}
+
+@media (max-height: 635px) {
+  .containerhome01 {
+    height: auto;
+  }
+
+  .container {
+    height: auto;
+  }
+
+  .titleHome01 {
+    margin-top: 30px;
+  }
+
+  .containerhome1-2 {
+    .titleHome1-2 {
+      margin-top: 60px;
+    }
+  }
+
+  .containerhome01 {
+    .bntHome1 {
+      margin-top: 80px;
+    }
+  }
+}
+
 @media (max-width: 380px) {
+  header {
+    padding-top: 30px;
+  }
+
+  .pHome2 {
+    padding: 0px 0px;
+  }
+
   .main04-1 {
     .bntHome4 {
       margin-bottom: 15px;
@@ -1597,7 +1657,7 @@ header {
         justify-content: center;
 
         p {
-          max-width: 290px;
+          // max-width: 290px;
         }
       }
 
@@ -1663,6 +1723,10 @@ header {
       hr {
         margin-top: 120px;
         margin-bottom: 20px;
+      }
+
+      p {
+        max-width: 290px;
       }
 
       .imagemQuemSouEu {

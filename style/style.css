@@ -1152,7 +1152,47 @@ header {
     font-size: 21px;
   }
 }
+@media (max-height: 695px) {
+  .containerhome01 {
+    height: auto;
+  }
+  .container {
+    height: auto;
+  }
+  .titleHome01 {
+    margin-top: 70px;
+  }
+  .containerhome1-2 .titleHome1-2 {
+    margin-top: 90px;
+  }
+  .containerhome01 .bntHome1 {
+    margin-top: 90px;
+  }
+}
+@media (max-height: 635px) {
+  .containerhome01 {
+    height: auto;
+  }
+  .container {
+    height: auto;
+  }
+  .titleHome01 {
+    margin-top: 30px;
+  }
+  .containerhome1-2 .titleHome1-2 {
+    margin-top: 60px;
+  }
+  .containerhome01 .bntHome1 {
+    margin-top: 80px;
+  }
+}
 @media (max-width: 380px) {
+  header {
+    padding-top: 30px;
+  }
+  .pHome2 {
+    padding: 0px 0px;
+  }
   .main04-1 .bntHome4 {
     margin-bottom: 15px;
   }
@@ -1196,9 +1236,6 @@ header {
   .main05-1 .quemSouEu .p1QuemSouEu {
     justify-content: center;
   }
-  .main05-1 .quemSouEu .p1QuemSouEu p {
-    max-width: 290px;
-  }
   .main05-1 .quemSouEu .imagemQuemSouEu2 .quemSouEuImg2 {
     margin-top: 185px;
   }
@@ -1237,6 +1274,9 @@ header {
   .main05-1 .quemSouEu hr {
     margin-top: 120px;
     margin-bottom: 20px;
+  }
+  .main05-1 .quemSouEu p {
+    max-width: 290px;
   }
   .main05-1 .quemSouEu .imagemQuemSouEu .quemSouEuImg {
     margin-top: 173px;
